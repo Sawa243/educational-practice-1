@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дни до Нового года и проверка високосного года</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Поле ввода даты -->
+        <input type="text" id="inputDate" placeholder="дд.мм.гггг">
+
+        <!-- Кнопка запуска вычислений -->
+        <button onclick="calculate()">Рассчитать</button>
+
+        <!-- Блок для вывода количества дней до Нового года -->
+        <div id="daysToNewYear"></div>
+
+        <!-- Блок для вывода информации о високосности года -->
+        <div id="leapYearInfo"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

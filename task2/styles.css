@@ -1,0 +1,101 @@
+/* Общие стили страницы */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Стилизация заголовка */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Фото профиля */
+.profile img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Стилизация информации о герое */
+.info p {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Стилизация раздела подвигов и заслуг */
+.skills {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.skills h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.skills ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    color: #555;
+}
+
+/* Стилизация контактной информации */
+.contacts {
+    margin-top: 20px;
+}
+
+.contacts h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Футер с копирайтом */
+footer {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* Адаптивный дизайн */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .profile img {
+        max-width: 200px;
+    }
+}
